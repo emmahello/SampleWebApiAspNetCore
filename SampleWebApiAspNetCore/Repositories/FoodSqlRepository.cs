@@ -48,7 +48,7 @@ namespace SampleWebApiAspNetCore.Repositories
             {
                 _allItems = _allItems
                     .Where(x => x.Calories.ToString().Contains(queryParameters.Query.ToLowerInvariant())
-                    || x.Name.ToLowerInvariant().Contains(queryParameters.Query.ToLowerInvariant()));
+                    || x.Name.ToLower().Contains(queryParameters.Query.ToLowerInvariant()));
             }
 
             return _allItems

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWebApiAspNetCore", "SampleWebApiAspNetCore\SampleWebApiAspNetCore.csproj", "{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiNetCore.Intergration Tests", "SampleWebApiNetCore.Intergration Tests\SampleWebApiNetCore.Intergration Tests.csproj", "{6D5E5B59-3D40-4BD6-B930-7C3324AA9A0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5E5B59-3D40-4BD6-B930-7C3324AA9A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5E5B59-3D40-4BD6-B930-7C3324AA9A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5E5B59-3D40-4BD6-B930-7C3324AA9A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5E5B59-3D40-4BD6-B930-7C3324AA9A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

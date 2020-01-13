@@ -35,7 +35,8 @@ namespace SampleWebApiAspNetCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOptions();
-            services.AddDbContext<FoodDbContext>(opt => opt.UseInMemoryDatabase("FoodDatabase"));
+            //services.AddDbContext<FoodDbContext>(opt => opt.UseInMemoryDatabase("FoodDatabase"));
+            services.AddDbContext<FoodDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("FoodDBConnection")));
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowAllOrigins",
